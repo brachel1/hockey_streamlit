@@ -5,8 +5,8 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 
 
-season_stats = r"C:\Users\pillb\Documents\blog2\utah_nhl_players_stats.csv"
-personal_info = r"C:\Users\pillb\Documents\blog2\utah_nhl_players_info.csv"
+season_stats = "utah_nhl_players_stats.csv"
+personal_info = "utah_nhl_players_info.csv"
 
 #load CSV files
 season_stats_df = pd.read_csv(season_stats)
